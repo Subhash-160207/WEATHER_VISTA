@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVista</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <div class="glass-panel">
+            <header class="hero">
+                <div>
+                    <h1>WeatherVista</h1>
+                    <p>Explore beautiful weather details for any city with a modern dashboard.</p>
+                </div>
+                <div class="hero-emoji">🌤</div>
+            </header>
+
+            <section class="search-section">
+                <label for="cityInput">Search city</label>
+                <div class="search-row">
+                    <input type="text" id="cityInput" placeholder="Type a city name" autocomplete="off">
+                    <button id="searchBtn" type="button">Search</button>
+                </div>
+            </section>
+
+            <div id="weatherCard" class="weather-card"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
